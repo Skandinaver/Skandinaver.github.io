@@ -19,7 +19,7 @@ function addNewNote(note, title, content) {
     // add a new note to the end of the list
     notes.append("<li><div class='" + note + "'>" +
                 "<textarea class='note-title' placeholder='Untitled' maxlength='10'></textarea>" +
-                "<textarea class='note-content' placeholder='Your content here'></textarea>" +
+                "<textarea class='note-content' placeholder='Your notes here'></textarea>" +
                 "<img class='hide' src='close.png'/>" +
                     "</div></li>");
     // get the new note that's just been added and attach the click event handler to its close button

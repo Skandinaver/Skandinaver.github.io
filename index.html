@@ -3,6 +3,7 @@
 <html>
 
     <head>
+        
         <title>Sticky note page</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="CSS.css" />
@@ -10,7 +11,7 @@
        
     </head>
  
- <body>
+<body>
 
      <div id="controls">
 
@@ -19,9 +20,22 @@
         <img id="btnSave" src="save.png"/>
     
     </div>
-    
     <ul id="notes">
+
+        <li>
+
+            <div class="notes">
+
+                <textarea class="note-title" placeholder="Untitled" maxlength="25">Welcome!</textarea>
+                <textarea class="note-content" placeholder="Your notes here">Click the top left icon to add new notes, this note can be removed by pressing the X button. Remember to keep titles short.(This note is permanent)</textarea>
+                <img class="hide" onclick="newNote.remove()" src="close.png">
+
+            </div>
+
+        </li>
+    
 
     </ul>
 
-     </body>
+
+</body>
